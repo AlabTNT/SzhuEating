@@ -1,6 +1,5 @@
 site_name: Szhu Eating
 site_url: https://eat.alabtnt.cn/
-
 theme:
   name: material
   custom_dir: overrides
@@ -157,7 +156,10 @@ nav:
   - 哈尔滨: harbin/index.md
   
 
-copyright: Copyright 2024 AlabTNT
+  
+  
+
+copyright: Copyright 2025 AlabTNT
 
 
 markdown_extensions:
@@ -192,6 +194,7 @@ markdown_extensions:
       linenums: true
   - pymdownx.arithmatex:
       generic: true
+
 
 plugins:
   - search
