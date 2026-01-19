@@ -1,0 +1,211 @@
+site_name: Szhu Eating
+site_url: https://eat.alabtnt.cn/
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    edit: material/pencil
+  features:
+    - content.action.edit
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+  font:
+    code: JetBrains Mono
+    text: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Navigation
+nav:
+  - 关于: 
+    - 简介: index.md
+    - 更新日志: changelog.md
+  - 杭州: 
+    - 导航页: hangzhou/index.md
+    - 浙江大学食堂:
+      - 导航页: hangzhou/inside/index.md
+      - 紫金港校区:
+        - 导航页: hangzhou/inside/zjg/index.md
+        - 玉湖餐厅:
+          - 导航页: hangzhou/inside/zjg/yuhu/index.md
+          - 东南亚风味: hangzhou/inside/zjg/yuhu/f1/southeast.md
+          - 风味餐厅: hangzhou/inside/zjg/yuhu/f2/fengwei.md
+          - 自选餐厅: hangzhou/inside/zjg/yuhu/f2/zixuan.md
+        - 澄月餐厅:
+          - 导航页: hangzhou/inside/zjg/chengyue/index.md
+          - 澄月1F: hangzhou/inside/zjg/chengyue/f1/index.md
+          - 澄月2F: hangzhou/inside/zjg/chengyue/f2/index.md
+          - 澄月3F自选区: hangzhou/inside/zjg/chengyue/f3/zixuan.md
+          - 澄月3F点餐区: hangzhou/inside/zjg/chengyue/f3/order.md
+        - 东区大食堂:
+          - 导航页: hangzhou/inside/zjg/dongquda/index.md
+          - 民族餐厅: hangzhou/inside/zjg/dongquda/f1/minzu.md
+          - 休闲餐厅: hangzhou/inside/zjg/dongquda/f1/xiuxian.md
+          - 风味餐厅: hangzhou/inside/zjg/dongquda/f1/fengwei.md
+          - 西区食堂: hangzhou/inside/zjg/dongquda/f2/west.md
+          - 东区食堂: hangzhou/inside/zjg/dongquda/f2/east.md
+          - 三楼餐厅: hangzhou/inside/zjg/dongquda/f3/index.md
+        - 银泉餐厅:
+          - 导航页: hangzhou/inside/zjg/yinquan/index.md
+          - A区: hangzhou/inside/zjg/yinquan/f1/a.md
+          - B区西餐: hangzhou/inside/zjg/yinquan/f1/b.md
+          - KFC: hangzhou/inside/zjg/yinquan/f1/kfc.md
+          - 西北风味: hangzhou/inside/zjg/yinquan/f2/northwest.md
+          - 速选区: hangzhou/inside/zjg/yinquan/f2/suxuan.md
+          - 自选区: hangzhou/inside/zjg/yinquan/f2/zixuan.md
+          - 食天一隅: hangzhou/inside/zjg/yinquan/f3/shitianyiyu.md
+          - 小乐惠: hangzhou/inside/zjg/yinquan/f3/xiaolehui.md
+        - 临湖餐厅:
+          - 导航页: hangzhou/inside/zjg/linhu/index.md
+          - 临湖1F: hangzhou/inside/zjg/linhu/f1/index.md
+          - 临湖2F: hangzhou/inside/zjg/linhu/f2/index.md
+        - 麦斯威(东二餐厅):
+          - 导航页: hangzhou/inside/zjg/e2-mysweet/index.md
+          - 东二麦斯威1F: hangzhou/inside/zjg/e2-mysweet/f1/index.md
+          - 东二麦斯威2F: hangzhou/inside/zjg/e2-mysweet/f2/index.md
+        - 麦香餐厅:
+          - 麦香餐厅: hangzhou/inside/zjg/maixiang/index.md
+        - 农生环餐厅:
+          - 农生环餐厅: hangzhou/inside/zjg/nongshenghuan/index.md
+      - 玉泉校区: hangzhou/inside/yuquan/index.md
+      - 西溪校区: hangzhou/inside/xixi/index.md
+      - 华家池校区: hangzhou/inside/huajiachi/index.md
+      - 之江校区: hangzhou/inside/zhijiang/index.md
+      - 舟山校区: zhoushan/inside/zhoushan/index.md
+      - 海宁国际校区: haining/inside/haining/index.md
+    - 紫金港周边:
+      - 堕落街(龙宇街):
+        - 杨记黄焖鸡: hangzhou/zijingang/longyu/yangjihuangmenji.md
+    - 黄龙周边: hangzhou/huanglong/index.md
+    - 西湖周边: hangzhou/xihu/index.md
+    - 下沙: hangzhou/xiasha/index.md
+    - 彭埠: hangzhou/pengbu/index.md
+    - 余杭: hangzhou/yuhang/index.md
+    - 拱墅: hangzhou/gongshu/index.md
+    - 滨江: hangzhou/binjiang/index.md
+    - 西湖: hangzhou/xihu/index.md
+    - 钱塘: hangzhou/qiantang/index.md
+    - 上城: hangzhou/shangcheng/index.md
+    - 萧山: hangzhou/xiaoshan/index.md
+    - 临平: hangzhou/linping/index.md
+    - 临安: hangzhou/linan/index.md
+    - 富阳: hangzhou/fuyang/index.md
+    - 交通枢纽:
+      - 杭州东站: trans/railwaystation/hangzhou/east/index.md
+      - 杭州西站: trans/railwaystation/hangzhou/west/index.md
+      - 杭州南站: trans/railwaystation/hangzhou/south/index.md
+      - 杭州站(城站): trans/railwaystation/hangzhou/center/index.md
+      - 杭州萧山国际机场: trans/airports/hgh.md
+  - 赤峰:
+    - 红山区:
+      - 红山万达: chifeng/hongshan/wanda.md
+      - 长青公园: chifeng/hongshan/changqinggongyuan.md
+      - 摩尔城: chifeng/hongshan/moercheng.md
+      - 维多利万悦城: chifeng/hongshan/weiduoli.md
+      - 小店铺集锦: chifeng/hongshan/small/index.md
+    - 松山区:
+      - 松山万达: chifeng/songshan/wanda.md
+      - 永业广场: chifeng/songshan/yongye.md
+      - 新城帝豪SOHO: chifeng/songshan/dihaosoho.md
+      - 小店铺集锦: chifeng/songshan/small/index.md
+    - 元宝山区:
+      - 世元广场: chifeng/yuanbaoshan/shiyuan.md
+      - 银河广场: chifeng/yuanbaoshan/yinhe.md
+      - 北环: chifeng/yuanbaoshan/beihuan.md
+      - 南环: chifeng/yuanbaoshan/nanhuan.md
+      - 小店铺集锦: chifeng/yuanbaoshan/small/index.md
+    - 旗县区: chifeng/other/index.md
+    - 交通枢纽:
+      - 赤峰站: trans/railwaystation/chifeng/center.md
+      - 赤峰南站: trans/railwaystation/chifeng/south.md
+      - 赤峰玉龙机场: trans/airports/cif.md
+  - 北京: beijing/index.md
+  - 南京:
+    - 东南大学(九龙湖)食堂: nanjing/seu/index.md
+    - 浮桥商圈: nanjing/fuqiao/index.md
+    - 新街口商圈: nanjing/xinjiekou/index.md
+    - 夫子庙商圈: nanjing/fuzimiao/index.md
+    - 玄武湖商圈: nanjing/xuanwuhu/index.md
+    - 玄武区: nanjing/xuanwu/index.md
+    - 雨花台区: nanjing/yuhuatai/index.md
+    - 秦淮区: nanjing/qinhuai/index.md
+    - 建邺区: nanjing/jianye/index.md
+    - 鼓楼区: nanjing/gulou/index.md
+    - 浦口区: nanjing/pukou/index.md
+    - 栖霞区: nanjing/qixia/index.md
+    - 六合区: nanjing/liuhe/index.md
+    - 溧水区: nanjing/lishui/index.md
+    - 高淳区: nanjing/gaochun/index.md
+    - 江宁区(北): nanjing/jiangning-north/index.md
+    - 江宁新区: nanjing/jiangning-south/index.md
+  - 上海: shanghai/index.md
+  - 哈尔滨: harbin/index.md
+  
+
+copyright: Copyright 2024 AlabTNT
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
+  - def_list
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+plugins:
+  - search
+  - macros
+
+extra:
+  base_url: ""
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+extra_javascript:
+  - 'javascripts/katex.js'
+  - 'javascripts/katex2.js'
+  - 'javascripts/rb.js'
+  - 'https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/music.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js'

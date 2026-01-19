@@ -1,0 +1,11 @@
+.vscode
+temp.*
+test.*
+update.bat
+*.c
+*.cpp
+*.h
+*.py
+requirements.txt
+orr/
+tutorial.md
